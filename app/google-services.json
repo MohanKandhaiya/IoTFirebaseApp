@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339044731264",
+    "firebase_url": "https://iotfirebaseapp.firebaseio.com",
+    "project_id": "iotfirebaseapp",
+    "storage_bucket": "iotfirebaseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339044731264:android:1f4541bd517bfe83",
+        "android_client_info": {
+          "package_name": "com.minixplore.firebase.iotfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339044731264-ji0g3tj6trc8bii0vfnhfhvoljm9ljsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.minixplore.firebase.iotfirebaseapp",
+            "certificate_hash": "24ba841f572adc790d0541f5ee90f1dd3af0f0c4"
+          }
+        },
+        {
+          "client_id": "339044731264-8bbf4bh5vf4jt8mu333eb5vo8vo4a5nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLk_AFzpeguonvmSyIYLi8AxdRDlBhEIg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339044731264-8bbf4bh5vf4jt8mu333eb5vo8vo4a5nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

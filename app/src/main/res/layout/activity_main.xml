@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEFA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/iot_governed_invasive_gases_monitoring_system_with_data_security_a_hardware_implementation_and_cloud_database"
+        android:textAlignment="center"
+        android:textColor="#000080"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="224dp"
+        android:padding="5dp"
+        android:text="@string/gas_sensor_1"
+        android:textColor="#006400"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="25dp"
+        android:padding="5dp"
+        android:text="@string/gas_sensor_2"
+        android:textColor="#006400"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="25dp"
+        android:padding="5dp"
+        android:text="@string/gas_sensor_3"
+        android:textColor="#006400"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/data4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="25dp"
+        android:padding="5dp"
+        android:text="@string/gas_sensor_4"
+        android:textColor="#006400"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/retrievedData1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/data1"
+        android:layout_marginStart="190dp"
+        android:hint="@string/sensor_value_1"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/retrievedData2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/data2"
+        android:layout_marginStart="190dp"
+        android:hint="@string/sensor_value_2"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/retrievedData3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/data3"
+        android:layout_marginStart="190dp"
+        android:hint="@string/sensor_value_3"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/retrievedData4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/data4"
+        android:layout_marginStart="190dp"
+        android:hint="@string/sensor_value_4"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

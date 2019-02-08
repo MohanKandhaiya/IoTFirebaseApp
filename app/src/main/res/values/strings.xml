@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IoT Firebase App</string>
+    <string name="iot_governed_invasive_gases_monitoring_system_with_data_security_a_hardware_implementation_and_cloud_database">IoT governed Invasive Gases Monitoring System with Data Security: A Hardware Implementation and Cloud Database</string>
+    <string name="gas_sensor_1">Gas Sensor 1</string>
+    <string name="gas_sensor_2">Gas Sensor 2</string>
+    <string name="gas_sensor_3">Gas Sensor 3</string>
+    <string name="gas_sensor_4">Gas Sensor 4</string>
+    <string name="sensor_value_4">Sensor Value 4</string>
+    <string name="sensor_value_1">Sensor Value 1</string>
+    <string name="sensor_value_2">Sensor Value 2</string>
+    <string name="sensor_value_3">Sensor Value 3</string>
+</resources>
